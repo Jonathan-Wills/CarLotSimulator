@@ -21,6 +21,25 @@ namespace CarLotSimulator
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
+            Car ford = new Car();
+            ford.Year = 2012;
+            ford.Make = "Ford";
+            ford.Model = "F150";
+            ford.EngineNoise = "brummmm";
+            ford.HonkNoise = "Doooot";
+            ford.IsDriveable = true;
+
+            ford.MakeEngineNoise();
+            ford.MakeHonkNoise();
+
+            Car chevy = new Car() { Year = 1972, Make = "Chevrolet", Model = "Impala", EngineNoise = "brumtumta", HonkNoise = "bom bom", IsDriveable = true };
+            chevy.MakeEngineNoise();
+            chevy.MakeHonkNoise();
+
+            Car camry = new Car(2019, "Toyota", "Camry", "hmmm", "beeeeep", true);
+            camry.MakeEngineNoise();
+            camry.MakeHonkNoise();
+           
 
             //*************BONUS X 2*************//
 
