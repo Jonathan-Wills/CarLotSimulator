@@ -39,7 +39,7 @@ namespace CarLotSimulator
             Car camry = new Car(2019, "Toyota", "Camry", "hmmm", "beeeeep", true);
             camry.MakeEngineNoise();
             camry.MakeHonkNoise();
-           
+
 
             //*************BONUS X 2*************//
 
@@ -47,6 +47,8 @@ namespace CarLotSimulator
             //It should have at least one property: a List of cars
             //Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
+
+            Console.WriteLine($"Number of cars: {CarLot.numberOfCars}");
         }
     }
 }
